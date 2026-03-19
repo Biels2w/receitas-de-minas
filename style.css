@@ -1,5 +1,5 @@
 *{
-    text-align: justify;
+    font-family:cursive;
 }
 h3{
     font-family: Roboto Slab;
@@ -59,9 +59,17 @@ button{
 }
 
 #temp{
-    margin-left: 228px;
+    margin-left: 249px;
 }
 
 #anotações{
     margin: 26px;
+}
+
+#anotações{
+    margin-left: 950px;
+    margin-top: -340px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
 }
