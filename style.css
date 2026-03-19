@@ -1,0 +1,67 @@
+*{
+    text-align: justify;
+}
+h3{
+    font-family: Roboto Slab;
+    font-style: italic;
+    font-size: 21px;
+}
+
+h2{
+    text-align: center;
+    -webkit-text-stroke: 0.8px  #a52a2a
+}
+
+header{
+    background-color: #a52a2a;
+    text-align: center;
+    border-radius: 30px;
+    border:15px; color: black;
+    padding: 0px;
+    word-spacing: 13px;
+}
+
+img{
+    margin: 0px auto;
+    display: flex;
+    border: 3px;
+    border-style: solid;
+    border-color: #a52a2a;
+    border-radius: 45px;
+    margin-bottom: 10px;
+}
+
+button{
+    margin: 0px auto;
+    display: flex;
+    padding: 5px;
+    color: #000000;
+    background-color: #a52a2a;
+    border-radius: 40px;
+}
+
+#segredo{
+    margin: 80px 18px;
+    border-radius: 15px;
+}
+
+.receita{
+    display: flex;
+    gap: 50px;
+    padding: 24px;
+}
+
+.servir{
+    display: flex;
+    gap: 50px;
+    margin: 32px;
+
+}
+
+#temp{
+    margin-left: 228px;
+}
+
+#anotações{
+    margin: 26px;
+}

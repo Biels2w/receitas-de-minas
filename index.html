@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas de Minas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Delícias de Minas</h1>
+</header>
+
+<main>
+
+    <!-- Receita principal -->
+    <section>
+        <h2>Pão de Queijo</h2>
+
+        <img src="separação/img/pão _de_queijo.png" alt="Pão de queijo" width="300">
+
+        <button popovertarget="segredo">Ver segredo do chefe</button>
+
+        <div id="segredo" popover>
+            <p>
+                Jamais coloque os ovos com a massa quente, senão 
+                eles cozinham e o pão não cresce!
+            </p>
+        </div>
+    </section>
+
+    <!-- Ingredientes + preparo -->
+    <div class="receita">
+        <section id="ingrediente">
+            <h3>INGREDIENTES</h3>
+            <ul>
+                <li>1 ovo inteiro</li>
+                <li>1 colher (café) de sal</li>
+                <li>1 xícara (chá) de leite</li>
+                <li>1 xícara (chá) de queijo minas meia cura ralado</li>
+            </ul>
+        </section>
+
+        <section id="preparo">
+            <h3>MODO DE PREPARO</h3>
+            <ol>
+                <li>Misture todos os ingredientes, menos o leite.</li>
+                <li>Adicione o leite aos poucos até a massa ficar homogênea.</li>
+                <li>Modele os pães e coloque em forma untada.</li>
+                <li>Leve ao forno pré-aquecido por 40 minutos ou até dourar.</li>
+            </ol>
+        </section>
+    </div>
+
+</main>
+
+<!-- Informações -->
+<div class="servir">
+    <section>
+        <h3>PORÇÕES</h3>
+        <p>Serve 15 pessoas</p>
+    </section>
+
+    <section>
+        <div id="temp">
+            <h3>TEMPO DE PREPARO</h3>
+            <p>50 minutos</p>
+        </div>
+    </section>
+</div>
+
+<section>
+    <div id="anotações">
+        <h3>SUAS ANOTAÇÕES</h3>
+        <div style="border:1px dashed #000000; padding: 10px;" contenteditable="true">
+            Clique aqui para adicionar suas observações sobre como ficou a sua forma.
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
